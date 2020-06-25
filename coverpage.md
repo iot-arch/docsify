@@ -1,4 +1,4 @@
-# docsify-themeable
+# Arch and Solution
 
 > Docs in development
 
@@ -7,7 +7,6 @@
 - POC
 - Key Features
 - Techs
-
-[Get Started](introduction)
+[Get Started](quick-start)
 [Arch](introduction)
-[Solution](test/index)
+[Solution](markdown)

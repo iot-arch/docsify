@@ -1,4 +1,4 @@
-* Getting started
+* Resource
   * [Quick start](quick-start.md)
   * [Test Framework](test/index.md)
   * [Cover page](cover.md)
