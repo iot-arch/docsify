@@ -40,14 +40,14 @@
 		// 4. Docsify Configuration
 		window.$docsify = {
       name: 'community docs',
-      repo: 'https://github.com/iot-arch/docsify',
+      repo: 'iot-arch/docsify',
       coverpage: 'coverpage.md',
       homepage: 'introduction.md',
 
       // NAVIGATION
       // -----------------------------------------------------------------   
+      loadSidebar: true,
       loadNavbar: true,   
-      loadSidebar: 'sidebar.md',
 			auto2top   : true,
 			maxLevel   : 3, 
 			subMaxLevel: 3,
@@ -55,6 +55,8 @@
       //Alias of route
       alias: {
         '/changelog':'https://raw.githubusercontent.com/docsifyjs/docsify/master/CHANGELOG',
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/.*/_navbar.md': '/_navbar.md',
       },
 			// 5. docsify-themeable
 			themeable : { 
