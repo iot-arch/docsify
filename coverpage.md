@@ -1,12 +1,12 @@
 # docsify-themeable
 
-> A delightfully simple doc
+> Docs in development
 
-- Based on CSS custom properties
-- No packages to install or files to build
-- Improved desktop and mobile experience
-- Multiple themes available
-- Legacy browser support (IE10+)
+- Architecture
+- Solution
+- POC
+- Key Features
+- Techs
 
 [Get Started](introduction)
 [Arch](introduction)
