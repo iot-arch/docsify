@@ -35,7 +35,7 @@
 
 <body>
 	<div id="app"></div>
-
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
 	<script>
 		// 4. Docsify Configuration
 		window.$docsify = {
@@ -52,6 +52,10 @@
 			maxLevel   : 3, 
 			subMaxLevel: 3,
 
+      //Alias of route
+      alias: {
+        '/changelog':'https://raw.githubusercontent.com/docsifyjs/docsify/master/CHANGELOG',
+      },
 			// 5. docsify-themeable
 			themeable : { 
 				// readyTransition : false, 
@@ -69,6 +73,9 @@
         pre: '<hr/>',
         style: 'text-align: right;',
       },
+      plugins: [
+      EditOnGithubPlugin.create('https://github.com/arch-iot/docsify/blob/master/docs/')
+    ]
 	};
 	</script>
 
@@ -85,8 +92,7 @@
 	<script src="//unpkg.com/docsify-copy-code"></script>
 	<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//unpkg.com/docsify-tabs"></script>
-  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
-  
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>  
    <!-- 7. Docsify Plugins from jsdelivr-->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
 </body>

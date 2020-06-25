@@ -5,6 +5,7 @@
 - [Options](options)
 - [Markdown](markdown)
 - [More](more/index)
+- [Changelog](changelog)
 - **Links**
-- [![Github](https://icongram.jgog.in/simple/github.svg?color=808080&size=16)Github](https://github.com/iot-arch/docsify)
+- [![Code](https://icongr.am/feather/code.svg?size=16&color=808080)Code](https://github.com/iot-arch/docsify)
 - [![Github](https://icongram.jgog.in/simple/github.svg?color=808080&size=16)Author](https://github.com/crazybber)
