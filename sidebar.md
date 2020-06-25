@@ -4,7 +4,7 @@
 - [Customization](customization)
 - [Options](options)
 - [Markdown](markdown)
-- [Test](test/index)
+- [More](more/index)
 - **Links**
 - [![Github](https://icongram.jgog.in/simple/github.svg?color=808080&size=16)Github](https://github.com/iot-arch/docsify)
 - [![Github](https://icongram.jgog.in/simple/github.svg?color=808080&size=16)Author](https://github.com/crazybber)
